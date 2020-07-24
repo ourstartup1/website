@@ -1,0 +1,67 @@
+body{
+  background-color: #ebecf1;
+  font-family: "Montserrat";
+
+}
+h4{
+  text-align: center;
+}
+
+#title{
+  background-color:#ffdbc5;
+  color: #000;
+  font-family: "ubuntu";
+  height: 55px;
+}
+.links{
+  padding: 0 2rem;
+}
+
+  .img{
+    height: 500px;
+    width: 100%;
+    opacity: 1;
+}
+
+.ourcollections{
+  display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: bold;
+
+}
+
+.list{
+  margin: 10px 0;
+}
+
+#items{
+  margin: 30px 0;
+}
+
+.item{
+  text-align: center;
+  margin: 20px 0;
+}
+#profiles img{
+  margin-top: -50px;
+}
+#profiles .card{
+  border-radius: 0;
+  box-shadow: 5px 5px 15px #e74c3c;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
+#profiles .card:hover{
+  background: #e74c3c;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #9e9e9e;
+}
+#profiles .card:hover h3{
+  color: #fff;
+}
